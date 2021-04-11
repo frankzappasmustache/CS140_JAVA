@@ -9,3 +9,11 @@
     
     Programs from lecture 1 being run for test purposes.
 */
+
+public class Welcome3
+{
+   public static void main(String[] args)
+   {
+      System.out.println("Welcome\n\tto\n\t\tJava\n\t\t\tProgramming!");
+   } //end of main method
+} // end of class Welcome3
