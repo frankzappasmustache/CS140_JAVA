@@ -10,7 +10,7 @@ System.out.println("\ta\tb\tc");
 ```java
 System.out.println("\\\\");
 ```
-\\
+\\\\
 
 ```java
 System.out.println("'");
@@ -26,8 +26,7 @@ System.out.println("\"\"\"");
 System.out.println("C:\nin\the downward spiral");
 ```
 C:  
-in  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he downward spiral
+in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he downward spiral
 
 ## Self-Check 13
 ```java
