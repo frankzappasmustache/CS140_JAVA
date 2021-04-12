@@ -25,8 +25,8 @@ System.out.println("\"\"\"");
 ```java
 System.out.println("C:\nin\the downward spiral");
 ```
-C:
-in
+C:  
+in  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;he downward spiral
 
 ## Self-Check 13
