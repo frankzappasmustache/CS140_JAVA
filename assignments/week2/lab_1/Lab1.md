@@ -1,4 +1,4 @@
-#Lab 1: Business Report
+# Lab 1: Business Report
 
 > Due Tuesday by 11:59pm Points 10 Submitting a text entry box or a file upload Available Apr 6 at 12am - Apr 20 at 11:59pm 15 days
 
@@ -17,7 +17,7 @@
   
 
 
-###You should include a comment at the beginning of your program with some basic information and a description of the program, as in:  
+### You should include a comment at the beginning of your program with some basic information and a description of the program, as in:  
 
 > // Darrell Criss  
 > 
