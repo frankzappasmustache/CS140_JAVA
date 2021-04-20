@@ -137,70 +137,142 @@ System.out.println(17 % 10 / 4);
 > - 17 % 10 = 7  
 > - 7 / 4 = 1  
 ## Self-Check 4
+### Trace the evaluation of the following expressions, and give their resulting values
 ```java
-System.out.println();
+System.out.println(4.0 / 2 * 9 / 2);
 ```
-a.
+> a. 9.0  
+> - 4.0 / 2 = 2.0  
+> - 2.0 * 9 = 18.0  
+> - 18.0 / 2 = 9.0  
 ```java
-System.out.println();
+System.out.println(2.5 * 2 + 8 / 5.0 + 10 / 3);
 ```
-b.
+> b. 9.6  
+> - 2.5 * 2 = 5.0  
+> - 8 / 5.0 = 1.6  
+> - 10 / 3 = 3  
+> - 5.0 + 1.6 + 3 = 9.6
 ```java
-System.out.println();
+System.out.println(12 / 7 * 4.4 * 2 / 4);
 ```
-c.
+> c. 2.2  
+> - 12 / 7 = 1  
+> - 1 * 4.4 = 4.4  
+> - 4.4 & 2 = 8.8  
+> - 8.8 / 4 = 2.2  
 ```java
-System.out.println();
+System.out.println(4 * 3 / 8 + 2.5 * 2);
 ```
-d.
+> d. 6.0  
+> - 4 * 3 = 12  
+> - 12 / 8 = 1  
+> - 2.5 * 2 = 5.0  
+> - 1 + 5.0 = 6.0  
 ```java
-System.out.println();
+System.out.println((5 * 7.0 / 2 - 2.5) / 5 * 2);
 ```
-e.
+> e. 6.0  
+> - 5 * 7.0 = 35.0  
+> - 35.0 / 2 = 17.5  
+> - 17.5 - 2.5 = 15.0  
+> - 15.0 / 5 = 3.0  
+> - 3.0 * 2 = 6.0  
 ```java
-System.out.println();
+System.out.println(41 % 7 * 3 / 5 + 5 / 2 * 2.5);
 ```
-f.
+> f. 8.0  
+> - 41 % 7 = 6  
+> - 6 * 3 = 18  
+> - 18 / 5 = 3  
+> - 5 / 2 = 2  
+> - 2 * 2.5 = 5.0  
+> - 3 + 5.0 = 8.0  
 ```java
-System.out.println();
+System.out.println(10.0 / 2 / 4);
 ```
-g.
+> g. 1.25  
+> - 10.0 / 2 = 5.0  
+> - 5.0 / 4 = 1.25  
 ```java
-System.out.println();
+System.out.println(8 / 5 + 13 / 2 / 3.0);
 ```
-h.
+> h. 3.0  
+> - 8 / 5 = 1  
+> - 13 / 2 = 6  
+> - 6 / 3.0 = 2.0  
+> - 1 + 2.0 = 3.0  
 ```java
-System.out.println();
+System.out.println((2.5 + 3.5) / 2);
 ```
-i.
+> i. 3.0  
+> - 2.5 + 3.5 = 6.0  
+> - 6.0 / 2 = 3.0  
 ```java
-System.out.println();
+System.out.println(9 / 4 * 2.0 - 5 / 4);
 ```
-j.
+> j. 3.0  
+> - 9 / 4 = 2  
+> - 2 * 2.0 = 4.0  
+> - 5 / 4 = 1  
+> - 4.0 - 1 = 3.0  
 ```java
-System.out.println();
+System.out.println(9 / 2.0 + 7 / 3 - 3.0 / 2);
 ```
-k.
+> k. 5.0  
+> - 9 / 2.0 = 4.5  
+> - 7 / 3 = 2  
+> - 3.0 / 2 = 1.5  
+> - 4.5 + 2 = 6.5  
+> - 6.5 - 1.5 = 5.0  
 ```java
-System.out.println();
+System.out.println(813 % 100 / 3 + 2.4);
 ```
-l.
+> l. 6.4  
+> - 813 % 100 = 13  
+> - 13 / 3 = 4  
+> - 4 + 2.4 = 6.4  
 ```java
-System.out.println();
+System.out.println(27 / 2 / 2.0 * (4.3 + 1.7) - 8 / 3);
 ```
-m.
+> m. 37.0  
+> - 4.3 + 1.7 = 6.0  
+> - 27 / 2 = 13  
+> - 13 / 2.0 = 6.5  
+> - 6.5 * 6.0 = 39.0  
+> - 8 / 3 = 2  
+> - 39.0 - 2 = 37.0  
 ```java
-System.out.println();
+System.out.println(53 / 5 / (0.6 + 1.4) / 2 + 13 / 2);
 ```
-n.
+> n. 8.5  
+> - 0.6 + 1.4 = 2.0  
+> - 53 / 5 = 10  
+> - 10 / 2.0 = 5.0  
+> - 5.0 / 2 = 2.5  
+> - 13 / 2 = 6  
+> - 2.5 + 6 = 8.5  
 ```java
-System.out.println();
+System.out.println(2 * 3 / 4 * 2 / 4.0 + 4.5 - 1);
 ```
-o.
+> o. 4.0  
+> - 2 * 3 = 6  
+> - 6 / 4 = 1  
+> - 1 * 2 = 2  
+> - 2 / 4.0 = 0.5  
+> - 0.5 + 4.5 = 5.0  
+> - 5.0 - 1 = 4.0  
 ```java
-System.out.println();
+System.out.println(89 % 10 / 4 * 2.0 / 5 + (1.5 + 1.0 / 2) * 2);
 ```
-p.
+> p. 4.8  
+> - 1.0 / 2 = 0.5  
+> - 1.5 + 0.5 = 2.0  
+> - 89 % 10 = 9 ==> 9 / 4 = 2  
+> - 2 * 2.0 = 4.0  
+> - 4.0 / 5 = 0.8  
+> - 2.0 * 2 = 4.0  
+> - 0.8 + 4.0 = 4.8  
 ## Self-Check 5
 ```java
 System.out.println();
