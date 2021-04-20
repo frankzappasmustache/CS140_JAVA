@@ -275,54 +275,90 @@ System.out.println(89 % 10 / 4 * 2.0 / 5 + (1.5 + 1.0 / 2) * 2);
 > - 0.8 + 4.0 = 4.8  
 ## Self-Check 5
 ```java
-System.out.println();
+System.out.println(2 + 2 + 3 + 4);
 ```
-a.
+> a. 11  
+> - 2 + 2 = 4  
+> - 4 + 3 = 7  
+> - 7 + 4 = 11  
 ```java
-System.out.println();
+System.out.println("2 + 2" + 3 + 4);
 ```
-b.
+> b. "2 + 234"  
+> - "2 + 2" + 3 = "2 + 23"  
+> - "2 + 23" + 4 = "2 + 234"  
 ```java
-System.out.println();
+System.out.println(2 + " 2 + 3 " + 4);
 ```
-c.
+> c. "2 2 + 3 4"  
+> - 2 + " 2 + 3 " = "2 2 + 3 "  
+> - "2 2 + 3 " + 4 = "2 2 + 3 4"  
 ```java
-System.out.println();
+System.out.println(3 + 4 + " 2 + 2");
 ```
-d.
+> d. "7 2 + 2"  
+> - 3 + 4 = 7  
+> - 7 + " 2 + 2" = "7 2 + 2"  
 ```java
-System.out.println();
+System.out.println("2 + 2 " + (3 + 4));
 ```
-e.
+> e. "2 + 2 7"  
+> - 3 + 4 = 7  
+> "2 + 2 " + 7 = "2 + 2 7"  
 ```java
-System.out.println();
+System.out.println("(2 + 2) " + (3 + 4));
 ```
-f.
+> f. "(2 + 2) 7"  
+> - 3 + 4 = 7  
+> - "(2 + 2) " + 7 = "(2 + 2) 7"  
 ```java
-System.out.println();
+System.out.println("hello 34 " + 2 * 4);
 ```
-g.
+> g. "hello 34 8"  
+> - 2 * 4 = 8  
+> - "hello 34" + 8 = "hello 34 8"  
 ```java
-System.out.println();
+System.out.println(2 + "(int) 2.0" + 2 * 2 + 2);
 ```
-h.
+> h. "2(int) 2.042"  
+> - 2 * 2 = 4  
+> - 2 + "(int) 2.0" = "2(int) 2.0"  
+> - "2(int) 2.0" + 4 + 2 = "2(int) 2.042"  
 ```java
-System.out.println();
+System.out.println(4 + 1 + 9 + "." + (-3 + 10) + 11 / 3);
 ```
-i.
+> i. "14.73"  
+> - -3 + 10 = 7  
+> - 11 / 3 = 3  
+> - 4 + 1 + 9 = 14  
+> - 14 + "." + 7 + 3 = "14.73"  
 ```java
-System.out.println();
+System.out.println(8 + 6 * -2 + 4 + "0" + (2 + 5));
 ```
-j.
+> j. "007"  
+> - 2 + 5 = 7  
+> - 6 * -2 = -12  
+> - 8 -12 = -4  
+> - -4 + 4 = 0  
+> - 0 + "0" + 7 = "007"  
 ```java
-System.out.println();
+System.out.println(1 + 1 + "8 - 2" + (8 - 2) + 1 + 1);
 ```
-k.
+> k. "28 - 2611"  
+> - 8 - 2 = 6  
+> - 1 + 1 = 2  
+> - 2 + "8 - 2" + 6 + 1 + 1 = "28 - 2611"  
 ```java
-System.out.println();
+System.out.println(5 + 2 + "(1 + 1)" + 4 + 2 * 3);
 ```
-l.
+> l. "7(1 + 1)46"  
+> - 2 * 3 = 6  
+> - 5 + 2 = 7  
+> - 7 + "(1 + 1)" + 4 + 6 = "7(1 + 1)46"  
 ```java
-System.out.println();
+System.out.println("1" + 2 + 3 + "4" + 5 * 6 + "7" + (8 + 9));
 ```
-m.
+> m. "123430717"  
+> - 8 + 9 = 17  
+> - 5 * 6 = 30  
+> - "1" + 2 + 3 + "4" + 30 + "7" + 17 = "123430717"  
