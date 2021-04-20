@@ -13,6 +13,10 @@
     Monday, asks how much time they would like
     to allot for each task, and then prints 
     out an agenda for them.
+    
+    For extra credit I used printf and Scanner
+    with Scanner methods we have not yet gone
+    over.
 */
 import java.io.*;
 import java.lang.*;
