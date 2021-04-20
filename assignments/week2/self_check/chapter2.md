@@ -274,6 +274,7 @@ System.out.println(89 % 10 / 4 * 2.0 / 5 + (1.5 + 1.0 / 2) * 2);
 > - 2.0 * 2 = 4.0  
 > - 0.8 + 4.0 = 4.8  
 ## Self-Check 5
+### Trace the evaluation of the following expressions, and give their resulting values
 ```java
 System.out.println(2 + 2 + 3 + 4);
 ```
