@@ -18,7 +18,7 @@ System.out.println();
 > b. x == y  
 > c. x == z  
 > d. y == z  
-> e. x + y > 0
+> e. x + y > 0  
 > f. x - z != 0  
 > g. y * y <= z  
 > h. y / y == 1  
