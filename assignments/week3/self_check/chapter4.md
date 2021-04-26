@@ -181,7 +181,7 @@ if (number % 2 == 0) {
 ``` 
 > In this corrected version, the else statement is isolated from the  
 > second nested if statement, so we can reliably trust when a number  
-> does not pass the test of equality in the first if statement it it is  
+> does not pass the test of equality in the first if statement, it is  
 > not an even number, and execution is passed to the else statement,  
 > which properly classifies it as "odd".  
 ## Self-Check 9
