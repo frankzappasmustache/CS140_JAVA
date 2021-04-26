@@ -124,8 +124,7 @@ if(Math.abs(x - y) < Math.abs(z - y)) {
 > b. if [x == 10] {  
 > c. if (x => y) {  
 > d. if (x equals 42) {  
-> **e. if (x == y) {**  
-
+> __e. if (x == y) {__  
 ## Self-Check 7
 ---
 ### Write Java code to read an integer from the user, then print even if that number is an even number or odd otherwise. You may assume that the user types a valid integer.
