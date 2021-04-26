@@ -52,7 +52,7 @@ if (number % 2 == 0) {
 }
 ```
 ### Examine the code and describe a case in which the code would print something that is untrue about the number that was entered. Explain why. Then correct the logic error in the code
->   
+> This is a filler answer  
 
 ## Self-Check 9
 ### Describe a problem with the following code:
@@ -64,4 +64,4 @@ if (name == "blue") {
 	System.out.println("Mine, too!");
 }
 ```
->   
+> This is also a filler answer  
