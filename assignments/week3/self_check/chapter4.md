@@ -12,7 +12,7 @@ if(z % 2 == 1) {
 > b. z is not greater than y's square root.  
 ```java
 if(z <= Math.sqrt(y)) {
-	System.out.println(z + " is less than or equal to " + y "'s square root.");
+	System.out.println(z + " is less than or equal to " + y + "'s square root.");
 }
 ``` 
 > c. y is positive.  
@@ -24,7 +24,7 @@ if(y > 0) {
 > d. Either x or y is even, and the other is odd.  
 ```java
 if(x % 2 != y % 2) {
-	System.out.println("Either " + x " is even or " + y " is even.");
+	System.out.println("Either " + x + " is even or " + y + " is even.");
 }
 ```
 > e. y is a multiple of z.  
@@ -77,7 +77,7 @@ if(x % 2 == 0) {
 > l. x is closer in value to y than z is.  
 ```java
 if(Math.abs(x - y) < Math.abs(z - y)) {
-	System.out.println(x + " is closer in value to " + y + " than " + z " is.");
+	System.out.println(x + " is closer in value to " + y + " than " + z + " is.");
 }
 ``` 
 
