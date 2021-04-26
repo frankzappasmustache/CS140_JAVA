@@ -89,25 +89,25 @@ if(Math.abs(x - y) < Math.abs(z - y)) {
     int y = -3;
     int z = 4;
 ```
-### What are the results of the following expressions?
-  
->a. x == 4  
+> ### What are the results of the following expressions?  
+>  
+> a. x == 4  
 > - TRUE  
->b. x == y  
+> b. x == y  
 > - FALSE  
->c. x == z  
-> - TRUE    
->d. y == z  
-> - FALSE  
->e. x + y > 0  
+> c. x == z  
 > - TRUE  
->f. x - z != 0  
+> d. y == z  
 > - FALSE  
->g. y * y <= z  
-> - FALSE  
->h. y / y == 1  
+> e. x + y > 0  
 > - TRUE  
->i. x * (y + 2) > y - (y + z) * 2  
+> f. x - z != 0  
+> - FALSE  
+> g. y * y <= z  
+> - FALSE  
+> h. y / y == 1  
+> - TRUE  
+> i. x * (y + 2) > y - (y + z) * 2  
 > - TRUE  
 ## Self-Check 3
 ---
