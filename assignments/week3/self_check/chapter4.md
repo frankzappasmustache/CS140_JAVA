@@ -195,4 +195,7 @@ if (name == "blue") {
 	System.out.println("Mine, too!");
 }
 ```
-> This is also a filler answer  
+> The code uses the equality operator "==" to compare to strings,  
+> which are not primitive data types.  
+> What it should use is the Java String.equals() method for  
+> non-primitive data types.   
