@@ -1,7 +1,8 @@
 # Self-Check Chapter 4  
 
-## Self-Check 1  
-### Translate each of the following English statements into logical tests that could be used in an if/else statement. Write the appropriate if statement with your logical test. Assume that three int variables x, y, and z have been declared:  
+## Self-Check 1
+---
+### Translate each of the following English statements into logical tests that could be used in an if/else statement. Write the appropriate if statement with your logical test. Assume that three int variables x, y, and z have been declared:
 > a. z is odd.  
 > -  
 > b. z is not greater than y's square root.  
@@ -27,6 +28,7 @@
 > l. x is closer in value to y than z is.  
 > -  
 ## Self-Check 2
+---
 ### Given the variable declarations:
 ```java
     int x = 4;
@@ -44,6 +46,7 @@
 > h. y / y == 1  
 > i. x * (y + 2) > y - (y + z) * 2  
 ## Self-Check 3
+---
 ### Which of the following if statement headers uses the correct syntax?
 > a. if x = 10 then {  
 > b. if [x == 10] {  
@@ -52,12 +55,14 @@
 > e. if (x == y) {  
 
 ## Self-Check 7
+---
 ### Write Java code to read an integer from the user, then print even if that number is an even number or odd otherwise. You may assume that the user types a valid integer.
 ```java
 
 ```
 
 ## Self-Check 8
+---
 ### The following code contains a logic error:
 ```java
 Scanner console = new Scanner(System.in);
@@ -75,6 +80,7 @@ if (number % 2 == 0) {
 > This is a filler answer  
 
 ## Self-Check 9
+---
 ### Describe a problem with the following code:
 ```java
 Scanner console = new Scaner(System.in);
