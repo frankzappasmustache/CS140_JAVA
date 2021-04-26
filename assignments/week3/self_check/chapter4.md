@@ -129,7 +129,21 @@ if(Math.abs(x - y) < Math.abs(z - y)) {
 ---
 ### Write Java code to read an integer from the user, then print even if that number is an even number or odd otherwise. You may assume that the user types a valid integer.
 ```java
+public class EvenOrOdd
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.print("Type an integer(e.g. 4 or 8): ");
 
+		int num = input.nextInt();
+		if (num % 2 == 0) {
+			System.out.println(num + " is an even number.");
+		} else {
+			System.out.println(num + " is an odd number.");
+		}
+	}
+}
 ```
 
 ## Self-Check 8
@@ -148,8 +162,28 @@ if (number % 2 == 0) {
 }
 ```
 ### Examine the code and describe a case in which the code would print something that is untrue about the number that was entered. Explain why. Then correct the logic error in the code
-> This is a filler answer  
-
+> If a number such as 10 evaluated to true in the first if statement,  
+> it would be passed to the second if statement, evaluate to false,  
+> and then be passed to the else statement, which would erroneously  
+> classify it as an odd number.  
+### Corrected logic error:
+```java
+Scanner console = new Scanner(System.in);
+System.out.print("Type a number: ");
+int number = console.nextInt();
+if (number % 2 == 0) {
+	if (number % 3 == 0) {
+		System.out.println("Divisible by 6.");
+	} 
+} else {
+		System.out.println("Odd.");
+	}
+``` 
+> In this corrected version, the else statement is isolated from the  
+> second nested if statement, so we can reliably trust when a number  
+> does not pass the test of equality in the first if statement it it is  
+> not an even number, and execution is passed to the else statement,  
+> which properly classifies it as "odd".  
 ## Self-Check 9
 ---
 ### Describe a problem with the following code:
