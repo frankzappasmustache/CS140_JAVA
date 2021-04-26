@@ -41,7 +41,7 @@ if(z % 2 != 0) {
 ```
 >> I am confused by the answer given on the website for this one.
 >> - z != 0 would not necessarily evaluate to z is not even,
->> because in this case, z could still be odd, but not equal to 0.
+>> because in this case, z could still be odd, but not equal to 0.  
 > g. y is greater in magnitude than z.  
 ```java
 if(Math.abs(y) > Math.abs(z)) {
