@@ -3,31 +3,51 @@
 ## Self-Check 1
 ---
 ### Translate each of the following English statements into logical tests that could be used in an if/else statement. Write the appropriate if statement with your logical test. Assume that three int variables x, y, and z have been declared:  
->
 > a. z is odd.  
-> -  
+```java
+if(z % 2 == 1) {
+	System.out.println(z + " is odd.");
+}
+```
 > b. z is not greater than y's square root.  
-> -  
+```java
+if(z <= Math.sqrt(y)) {
+	System.out.println(z + " is less than or equal to " + y "'s square root.");
+}
+``` 
 > c. y is positive.  
-> -  
+```java
+if(y > 0) {
+	System.out.println(y + " is a positive number.");
+}
+```
 > d. Either x or y is even, and the other is odd.  
-> -  
+```java
+```
 > e. y is a multiple of z.  
-> -  
+```java
+```
 > f. z is not even.  
-> -  
+```java
+``` 
 > g. y is greater in magnitude than z.  
-> -  
+```java
+```
 > h. x and z are of opposite signs.  
-> -  
+```java
+``` 
 > i. y is a nonnegative one-digit number.  
-> -  
+```java
+``` 
 > j. z is nonnegative.  
-> -  
+```java
+```  
 > k. x is even.  
-> -  
+```java
+```
 > l. x is closer in value to y than z is.  
-> -  
+```java
+``` 
 
 ## Self-Check 2
 ---
@@ -54,7 +74,7 @@
 > b. if [x == 10] {  
 > c. if (x => y) {  
 > d. if (x equals 42) {  
-> e. if (x == y) {  
+> **e. if (x == y) {**  
 
 ## Self-Check 7
 ---
