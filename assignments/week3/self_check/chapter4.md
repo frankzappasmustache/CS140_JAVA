@@ -89,7 +89,8 @@ if(Math.abs(x - y) < Math.abs(z - y)) {
     int y = -3;
     int z = 4;
 ```
-> ### What are the results of the following expressions?
+### What are the results of the following expressions?   
+
 > a. x == 4  
 > - TRUE  
 > b. x == y  
@@ -108,6 +109,7 @@ if(Math.abs(x - y) < Math.abs(z - y)) {
 > - TRUE  
 > i. x * (y + 2) > y - (y + z) * 2  
 > - TRUE  
+
 ## Self-Check 3
 ---
 ### Which of the following if statement headers uses the correct syntax?
