@@ -2,10 +2,30 @@
 
 ## Self-Check 1
 ### Translate each of the following English statements into logical tests that could be used in an if/else statement. Write the appropriate if statement with your logical test. Assume that three int variables x, y, and z have been declared:
-```java
-System.out.println();
-```
-
+> a. z is odd.  
+> -  
+> b. z is not greater than y's square root.  
+> -  
+> c. y is positive.  
+> -  
+> d. Either x or y is even, and the other is odd.  
+> -  
+> e. y is a multiple of z.  
+> -  
+> f. z is not even.  
+> -  
+> g. y is greater in magnitude than z.  
+> -  
+> h. x and z are of opposite signs.  
+> -  
+> i. y is a nonnegative one-digit number.  
+> -  
+> j. z is nonnegative.  
+> -  
+> k. x is even.  
+> -  
+> l. x is closer in value to y than z is.  
+> -  
 ## Self-Check 2
 ### Given the variable declarations:
 ```java
