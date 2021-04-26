@@ -2,7 +2,8 @@
 
 ## Self-Check 1
 ---
-### Translate each of the following English statements into logical tests that could be used in an if/else statement. Write the appropriate if statement with your logical test. Assume that three int variables x, y, and z have been declared:
+### Translate each of the following English statements into logical tests that could be used in an if/else statement. Write the appropriate if statement with your logical test. Assume that three int variables x, y, and z have been declared:  
+>
 > a. z is odd.  
 > -  
 > b. z is not greater than y's square root.  
@@ -27,6 +28,7 @@
 > -  
 > l. x is closer in value to y than z is.  
 > -  
+
 ## Self-Check 2
 ---
 ### Given the variable declarations:
