@@ -23,30 +23,62 @@ if(y > 0) {
 ```
 > d. Either x or y is even, and the other is odd.  
 ```java
+if(x % 2 != y % 2) {
+	System.out.println("Either " + x " is even or " + y " is even.");
+}
 ```
 > e. y is a multiple of z.  
 ```java
+if(y % z == 0) {
+	System.out.println(y + " is a multiple of " + z);
+}
 ```
 > f. z is not even.  
 ```java
-``` 
+if(z % 2 != 0) {
+	System.out.println(z + " is not an even number.");
+}
+```
+>> I am confused by the answer given on the website for this one.
+>> - z != 0 would not necessarily evaluate to z is not even,
+>> because in this case, z could still be odd, but not equal to 0.
 > g. y is greater in magnitude than z.  
 ```java
+if(Math.abs(y) > Math.abs(z)) {
+	System.out.println(y + " is greater in magnitude than " + z);
+}
 ```
 > h. x and z are of opposite signs.  
 ```java
+if((x => 0) && (z < 0) || (z >= 0) && (x < 0)) {
+	System.out.println(x + " and " + z + " are of opposite sign(+, -)");
+} else {
+	System.out.println(x + " and " z + " are of the same sign(+, -)");
+}
 ``` 
 > i. y is a nonnegative one-digit number.  
 ```java
+if(y % 10 == y) {
+	System.out.println(y + " is a nonnegative one-digit number.");
+}
 ``` 
 > j. z is nonnegative.  
 ```java
+if(z >= 0) {
+	System.out.println(z + " is a nonnegative number.");
+}
 ```  
 > k. x is even.  
 ```java
+if(x % 2 == 0) {
+	System.out.println(x + " is an even number.");
+}
 ```
 > l. x is closer in value to y than z is.  
 ```java
+if(Math.abs(x - y) < Math.abs(z - y)) {
+	System.out.println(x + " is closer in value to " + y + " than " + z " is.");
+}
 ``` 
 
 ## Self-Check 2
@@ -59,14 +91,23 @@ if(y > 0) {
 ```
 ### What are the results of the following expressions? 
 > a. x == 4  
+> - TRUE  
 > b. x == y  
+> - FALSE  
 > c. x == z  
+> - TRUE    
 > d. y == z  
+> - FALSE  
 > e. x + y > 0  
+> - TRUE  
 > f. x - z != 0  
+> - FALSE  
 > g. y * y <= z  
+> - FALSE  
 > h. y / y == 1  
+> - TRUE  
 > i. x * (y + 2) > y - (y + z) * 2  
+> - TRUE  
 ## Self-Check 3
 ---
 ### Which of the following if statement headers uses the correct syntax?
