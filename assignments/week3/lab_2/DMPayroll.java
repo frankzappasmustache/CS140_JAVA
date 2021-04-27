@@ -36,11 +36,9 @@ public class DMPayroll
         String hourlyOrSalary = "";
         
         Scanner input = new Scanner(System.in);
-        
-        while(true)
+        int n = 0;
+        while(n != COMPANY_SIZE)
         {
-            for(int i = 0; i < COMPANY_SIZE; i++)
-            {
                 System.out.println("Please enter the number of hours you worked this week(e.g. 38.25): ");
                 hrsWorked = input.nextDouble();
                 
@@ -62,9 +60,9 @@ public class DMPayroll
                     gross = payRate * hrsWorked;
                     net = (payRate * hrsWorked) * 0.85;
                 }
-                System.out.printf("Your Gross Pay for the week is %5.2f\n", gross);
-                System.out.printf("Your Net Pay for the week is %5.2f\n", net);
-            }
+                System.out.printf("Your Gross Pay for the week is %5.2f.\n", gross);
+                System.out.printf("Your Net Pay for the week is %5.2f.\n", net);
+                n++;
         }
     } // end method main
     
