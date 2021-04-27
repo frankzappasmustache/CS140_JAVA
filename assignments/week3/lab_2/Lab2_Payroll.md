@@ -1,10 +1,10 @@
-#Lab 2: Payroll  
+# Lab 2: Payroll  
 > Due Tuesday by 11:59pm  
 > Points 16  
 > Submitting a text entry box or a file upload  
 > Available Apr 6 at 12am - Apr 27 at 11:59pm 22 days  
 
-> ##You will uploading your lab in Canvas as a .java attachment.  
+> ## You will uploading your lab in Canvas as a .java attachment.  
 > 
 > You may work with one or two other students on this lab if you'd like.  Please submit one lab per team.  Make sure that you include your name and the names of your team members.  Each student is required to turn in their own pre-lab and post-lab.  You should name your file <first initial><last initial>Payroll.java and will be turning in your lab by to me by e-mail using Canvas Inbox.  
 > 
