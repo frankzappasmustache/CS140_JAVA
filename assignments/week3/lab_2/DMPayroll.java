@@ -7,16 +7,13 @@
     Lab: Payroll
     Modified Date: 04/26/2021
     
-    A program that obtains the month and current
-    Monday from the user, asks them about three
-    tasks they would like to complete on that
-    Monday, asks how much time they would like
-    to allot for each task, and then prints 
-    out an agenda for them.
+    A program that takes employee's hours, pay rate,
+    and position type(salary or hourly), and uses this
+    data to calculate gross and net income for a company
+    of 3 people.
     
-    For extra credit I used printf and Scanner
-    with Scanner methods we have not yet gone
-    over.
+    This calculator also calculates withholding differently
+    depending on total income.
 */
 import java.io.*;
 import java.lang.*;
@@ -63,8 +60,14 @@ public class DMPayroll
                     System.out.println("Please enter your hourly pay(e.g. 20.00): ");
                     payRate = input.nextDouble();
                     
-                    gross = payRate * hrsWorked;
-                    net = (payRate * hrsWorked) * 0.85;
+                    if(payRate >= 75.00)
+                    {
+                        gross = payRate * hrsWorked;
+                        net = (payRate * hrsWorked) * 0.75;
+                    } else {
+                        gross = payRate * hrsWorked;
+                        net = (payRate * hrsWorked) * 0.80;
+                    }
                 }
                 System.out.printf("Your Gross Pay for the week is %5.2f.\n", gross);
                 System.out.printf("Your Net Pay for the week is %5.2f.\n", net);
