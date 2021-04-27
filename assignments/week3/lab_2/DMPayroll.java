@@ -29,16 +29,17 @@ public class DMPayroll
     public static void main(String[] args)
     {
         final int COMPANY_SIZE = 3;
+        int n = 0;
         double hrsWorked;
         double payRate;
         double gross;
         double net;
         String hourlyOrSalary = "";
         
-        Scanner input = new Scanner(System.in);
-        int n = 0;
         while(n != COMPANY_SIZE)
         {
+                Scanner input = new Scanner(System.in);
+                
                 System.out.println("Please enter the number of hours you worked this week(e.g. 38.25): ");
                 hrsWorked = input.nextDouble();
                 
@@ -50,10 +51,15 @@ public class DMPayroll
                     System.out.println("Please enter your weekly salary(e.g. 2000.00): ");
                     payRate = input.nextDouble();
                     
-                    gross = payRate;
-                    net = payRate * 0.85;
-                } else
-                {
+                    if(payRate >= 3000.00)
+                    {
+                        gross = payRate;
+                        net = payRate * 0.75;
+                    } else {
+                        gross = payRate;
+                        net = payRate * 0.80;
+                    }
+                } else {
                     System.out.println("Please enter your hourly pay(e.g. 20.00): ");
                     payRate = input.nextDouble();
                     
