@@ -47,7 +47,7 @@ public class DMPayroll
                 System.out.println("Please enter \"salary\" if you are salaried or \"hourly\" if you are hourly: ");
                 hourlyOrSalary = input.next();
                 
-                // nested if/else loosp that figure gross and net pay based on employee type and pay rate
+                // nested if/else loops that figure gross and net pay based on employee type and pay rate
                 if(hourlyOrSalary.equalsIgnoreCase("salary"))
                 {
                     System.out.println("Please enter your weekly salary(e.g. 2000.00): ");
