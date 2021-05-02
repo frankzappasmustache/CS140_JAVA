@@ -40,6 +40,7 @@
 
 # Example Run:
 ![Calendar 1](https://github.com/frankzappasmustache/CS140_JAVA/blob/main/assignments/week5/assignment_1/calendar1.png)
+\
 ![Calendar 2](https://github.com/frankzappasmustache/CS140_JAVA/blob/main/assignments/week5/assignment_1/calendar2.png)
 
 
@@ -50,4 +51,5 @@
 > have the freedom to choose what characters you use for the calendar (the “|” and “=” in
 > the example above) and the exact location of the number in each cell. Below is an example of a
 > calendar produced with a size of 5:
+\
 ![Calendar 4](https://github.com/frankzappasmustache/CS140_JAVA/blob/main/assignments/week5/assignment_1/calendar4.png)
