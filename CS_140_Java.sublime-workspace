@@ -1,0 +1,500 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+					"Build and Run"
+				]
+			],
+			[
+				"Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+				"Build and Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++11/C++11.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++.sublime-build",
+					"Run in Terminal"
+				]
+			],
+			[
+				"Packages/User/C++.sublime-build",
+				"Run in Terminal"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C++14.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++14.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++14.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"debug",
+				"Package Control: Enable Debug Mode"
+			],
+			[
+				"book",
+				"SublimeBookmarks: Show All Bookmarks "
+			],
+			[
+				"clan",
+				"Clang Format: Format Selection"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"c++",
+				"Set Syntax: C++11"
+			],
+			[
+				"cla",
+				"Clang Format: Format Selection"
+			],
+			[
+				"clang",
+				"Clang Format: Format Selection"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"sublimerepl",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"py",
+				"Pretty Print: Format (Pretty Print) Python code"
+			],
+			[
+				"cach",
+				"requirements.txt: Clear Cache"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"python",
+				"Pretty Print: Format (Pretty Print) Python code"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 329.0,
+		"history":
+		[
+			"import logging; log = logging.getLogger(\"test\"); log.debug(\"this is debug\"); log.info(\"this is info\")",
+			"clear()",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week3",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week4"
+	],
+	"file_history":
+	[
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/RunJava.sublime-build",
+		"/home/frankzappasmustache/Documents/jGRASP.desktop.bak",
+		"/home/frankzappasmustache/Desktop/jGRASP.desktop",
+		"/home/frankzappasmustache/Programs/VMware-Workstation-Full-16.0.0-16894299.x86_64.bundle",
+		"/home/frankzappasmustache/Untitled.bjKqAo",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/manager.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/whiteCouncil.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/employee.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/fellowShip.py",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab 8 Employee Classes.py",
+		"/home/frankzappasmustache/pylint.rc",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Pylinter.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_7_Functional_Shapes/functionalShapes.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/assignments/Lab_8_Employee_Classes/donCorlione.py",
+		"/home/frankzappasmustache/code/courses/employee.py",
+		"/home/frankzappasmustache/code/courses/IT121_Python/.gitignore",
+		"/home/frankzappasmustache/Documents/Courses/IT 121 - Introduction to Programming/Documents/Book/Full_Book_Text.txt",
+		"/home/frankzappasmustache/Documents/gcinn_nmap_scan.txt",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.sublime-project",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 07 Exercises/Ex 7.29/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 07 Exercises/Ex 7.29/TheSieveofEratosthenes.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/playground/cpp-lang/algo/sedgewick/ch03/exr_3_13/eratosthenessieve.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/playground/cpp-lang/algo/sedgewick/ch03/exr_3_13/eratosthenessieve.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 07 Exercises/Ex 7.29/TheSieveofEratosthenes.hpp",
+		"/home/frankzappasmustache/.xbindkeysrc",
+		"/home/frankzappasmustache/.xbindkeysrc:",
+		"/home/frankzappasmustache/code/courses/sieveOfEratosthenes_backup.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_8_tortiseAndHare/tortiseAndHare.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_8_tortiseAndHare/tortiseAndHare.md",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 08 Exercises/Ex 8.12/TortoiseAndHare.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_8_tortiseAndHare/tortiseAndHare.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/Assignment3/i.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 09 Exercises/Ex 9.6/RationalClass.hpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 09 Exercises/Ex 9.6/RationalClass.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 08 Exercises/Ex 8.12/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 08 Exercises/Ex 8.12/TortoiseAndHare.hpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_10_Account_Inheritance/accountInheritance.md",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS131 Lab 08 - Sorting with Arrays.cpp",
+		"/home/frankzappasmustache/code/courses/test1.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_07/exercises/7.27/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_9_rationalClass/rational.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_9_rationalClass/rational.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_9_rationalClass/rational.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/PeterMinuitProblem.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_7_sieveOfEratosthenes/sieveOfEratosthenes.md",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6a_parkingCharges/parkingCharges.md",
+		"/home/frankzappasmustache/code/courses/tests_examples/Assignment-3/5.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/C-class/DL_A6_C3_p20.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS132 Lab 02.1 - Classes - Basics.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran C++ CS131 Lab 06 - Recursion - Binary conversion.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.36/RecursiveExponentiation",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.36/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.36/RecursiveExponentiation.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.36/RecursiveExponentiation.hpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.36/src/main.cpp",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/CppBuilder.sublime-settings",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-project",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3a_heartRate/HeartRates.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.18/.vscode/tasks.json",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.18/Exponentiation.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.18/Exponentiation.hpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.18/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.18/.vscode/launch.json",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.12/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.12/ParkingCharges.hpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.12/ParkingCharges.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.12/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.cpp",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++14.sublime-build",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/C++11.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Clang Format/clang_format.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++NamespaceTool/C++NamespaceTool.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/CppBuilder/CppBuilder.sublime-settings",
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++.sublime-build",
+		"/tmp/kite_tutorial.py",
+		"/home/frankzappasmustache/code/courses/tests_examples/Dustins_tests/parkingCharges_11_11.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/Dustins_tests/parkingCharges_11_11.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_2_arithmetic/arithmetic.cpp",
+		"/home/frankzappasmustache/code/courses/test.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.h",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.06/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.08/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.09/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.10/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.14/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.13/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.12/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.11/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.16/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.23/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.22/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.21/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.20/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.18/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.19/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.29/src/main.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab MIDTERM EXAM Study Calculator.py",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131.sublime-project",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/.gitignore",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace.orig",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131_CPP_laptop.sublime-workspace",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/avgOfIntegers",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.h",
+		"/home/frankzappasmustache/code/courses/tests_examples/Dustins_tests/parkingCharges.cpp",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.md",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.cpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.hpp",
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.hpp",
+		"/home/frankzappasmustache/Documents/gnupg_keygen_dustin_t_mcclure_gmail.txt",
+		"/home/frankzappasmustache/Documents/ssh_keygen_github.txt",
+		"/home/frankzappasmustache/Documents/fedora_33_upgrade_broken_packages.txt",
+		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/smallestValue.md"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 146.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"super().__init__(self.department)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CppBuilder":
+	{
+		"height": 178.0
+	},
+	"output.Debugger":
+	{
+		"height": 266.0
+	},
+	"output.ECC":
+	{
+		"height": 144.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 178.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 253.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
+	{
+		"height": 130.0
+	},
+	"output.exec":
+	{
+		"height": 265.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.help":
+	{
+		"height": 144.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++ & C Single File Builder - Minghang Yang/C++ Builder-Minghang Yang.sublime-build",
+	"project": "CS_140_Java.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
