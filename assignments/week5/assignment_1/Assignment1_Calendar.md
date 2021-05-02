@@ -1,6 +1,8 @@
-<center>CS 140</center>
-<center>Calendar Assignment</center>
-<center>Part 1</center>
+<h1 align="center">CS 140</h1>
+<br/>
+<h1 align="center">Calendar Assignment</h1>
+<br/>
+<h1 align="center">Part 1</h1>
 
 # Key topics:
 > Printing, data types, methods, operators, expressions, variables, for loops, class constants, parameters, returns, String objects, Scanner objects
