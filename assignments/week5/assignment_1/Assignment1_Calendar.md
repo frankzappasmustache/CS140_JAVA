@@ -39,11 +39,15 @@
 > actual number. We will change that in a later part of the assignment.
 
 # Example Run:
-
+![Calendar 1](https://github.com/frankzappasmustache/CS140_JAVA/blob/main/assignments/week5/assignment_1/calendar1.png)
+![Calendar 2](https://github.com/frankzappasmustache/CS140_JAVA/blob/main/assignments/week5/assignment_1/calendar2.png)
 
 
 # Scalability:
+![Calendar 3](https://github.com/frankzappasmustache/CS140_JAVA/blob/main/assignments/week5/assignment_1/calendar3.png)
+
 > Your program should produce output likethis if the size is 10. However, as stated above, you
 > have the freedom to choose what characters you use for the calendar (the “|” and “=” in
 > the example above) and the exact location of the number in each cell. Below is an example of a
 > calendar produced with a size of 5:
+![Calendar 4](https://github.com/frankzappasmustache/CS140_JAVA/blob/main/assignments/week5/assignment_1/calendar4.png)
