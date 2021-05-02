@@ -1,7 +1,7 @@
 <h1 align="center">CS 140</h1>
-<br/>
+
 <h1 align="center">Calendar Assignment</h1>
-<br/>
+
 <h1 align="center">Part 1</h1>
 
 # Key topics:
