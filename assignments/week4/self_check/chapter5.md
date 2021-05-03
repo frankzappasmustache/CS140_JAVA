@@ -4,8 +4,8 @@
 ---
 ### For each of the following *while* loops, state how many times the loop will execute its body. Remember that "zero," "infinity," and "unknown" are legal answers. Also, what is the output of the code in each case?:
 > a.  
-> - Loop will execute 10 times (until it reaches 91 -- adding 10 to x at this point would put it at 101)  
-> - The output is 1 11 21 31 41 51 61 71 81 91 (x is printed, and then 10 is added to it each subsequent time through the while loop)
+> - Loop will execute 10 times (until it reached 91 -- adding 10 to x at this point would put it at 101)  
+> - The output is 1 11 21 31 41 51 61 71 81 91 (x is printed, and then 10 is added to it each subsequent time through the while loop)  
 ```java
 int x = 1;
 
@@ -15,7 +15,7 @@ while (x < 100) {
 }
 ```
 > b.  
-> - This loop will never execute because max is already equal to 10 at the beginning of the loop, and this is the control condition.
+> - This loop will never execute because max is already equal to 10 at the beginning of the loop, and this is the control condition.  
 ```java
 int max = 10;
 
@@ -25,8 +25,8 @@ while (max < 10) {
 }
 ```
 > c.  
-> - This loop will execute an infinite number of times because the remainder of 250 using the modulus operator will always produce a remainder greater than 0.
-> - The output would be:
+> - This loop will execute an infinite number of times because the remainder of 250 using the modulus operator will always produce a remainder greater than 0.  
+> - The output would be:  
 >> 250  
 >> 250  
 >> etc.  
@@ -38,8 +38,8 @@ while (x % 3 != 0) {
 }
 ```
 > d.  
-> - This loop will execute 3 times(2 + " " = 2, 2 * 2 = 4 | 4 + " " = 4, 4 * 4 = 16 | 16 + " " = 16, 16 * 16 = 256)
-> - The output of this loop is 2 4 16
+> - This loop will execute 3 times(2 + " " = 2, 2 * 2 = 4 | 4 + " " = 4, 4 * 4 = 16 | 16 + " " = 16, 16 * 16 = 256)  
+> - The output of this loop is 2 4 16  
 ```java
 int x = 2;
 
@@ -50,7 +50,7 @@ while (x < 200) {
 ```
 > e.  
 > - This loop will execute 5 times(b + a + b = bab, b + bab + b = bbabb, b + bbabb + b = bbbabbb, b + bbbabbb + b = bbbbabbbb, b + bbbbabbbb + b = bbbbbabbbbb)  
-> - The output of this loop is bbbbbabbbbb
+> - The output of this loop is bbbbbabbbbb  
 ```java
 String word = "a";
 while (word.length() < 10) {
@@ -81,7 +81,7 @@ while (x > 0) {
 ## Self-Check 2
 ---
 ### Convert each of the following *for* loops into an equivalent *while* loop:
-> a.
+> a.  
 ```java
 for (int n = 1; n <= max; n++) {
     System.out.println(n);
@@ -95,7 +95,7 @@ while (n <= max) {
     n++;
 }
 ```
-> b.
+> b.  
 ```java
 int total = 25;
 
@@ -114,7 +114,7 @@ while (number <= (total / 2)) {
     number++
 }
 ```
-> c.
+> c.  
 ```java
 for (int i = 1; i <= 2; i++) {
     for (int j = 1; j <= 3; j++) {
@@ -146,7 +146,7 @@ while (i <= 2) {
     i++;
 }
 ```
-> d.
+> d.  
 ```java
 int number = 4;
 
@@ -170,25 +170,27 @@ while (count <= number) {
 ### Consider the following method:
 ```java
 public static void mystery(int x) {
-    int y = 0;
-    while (x % 2 == 0) {
-        y++;
-        x = x / 2;
+    int y = 1;
+    int z = 0;
+    while (2 * y <= x) {
+        y = y * 2;
+        z++;
     }
-    System.out.println(x + " " + y);
+    System.out.println(y + " " + z);
 }
 ```
-### For each of the following calls, indicate the output that the preceding method produces:
-> mystery(19);
-> -
-> mystery(42);
-> -
-> mystery(48);
-> -
-> mystery(40);
-> -
-> mystery(64);
-> -
+### For each of the following calls, indicate the output that the preceding method produces:  
+
+> mystery(1);  
+> - 1 0  
+> mystery(6);  
+> - 4 2  
+> mystery(19);  
+> - 16 4  
+> mystery(39);  
+> - 32 5  
+> mystery(74);  
+> - 64 6  
 
 ## Self-Check 7
 ---
@@ -198,15 +200,10 @@ public class RandomOdd
 {
     public static void main(String[] args)
     {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Type an integer(e.g. 4 or 8): ");
+        Random randOdd = new Random();
+        int oddInt = rand.nextInt(25) * 2 + 51;
 
-        int num = input.nextInt();
-        if (num % 2 == 0) {
-            System.out.println(num + " is an even number.");
-        } else {
-            System.out.println(num + " is an odd number.");
-        }
+        System.out.print(oddInt);
     }
 }
 ```
@@ -214,7 +211,9 @@ public class RandomOdd
 ## Self-Check 8
 ---
 ### For each of the *do/while* loops that follow, state the number of times that the loop will execute its body. Remember that "zero," "infinity," and "unknown" are legal answers. Also, what is the output of the code in each case?:
-> a.
+> a.  
+> - This loop will execute 10 times (until it reached 91 -- adding 10 to x at this point would put it at 101)  
+> - The output is 1 11 21 31 41 51 61 71 81 91 (x is printed, and then 10 is added to it each subsequent time through the while loop)  
 ```java
 int x = 1;
 
@@ -223,7 +222,15 @@ do {
     x = x + 10;
 } while (x < 100);
 ```
-> b.
+> b.  
+> - This loop will execute an infinite number of times because the control condition is while max is less than 10, and 10 is decremented by 1 at the end of each loop.  
+> - The output of this loop would be:  
+>> count down: 10  
+>> count down: 9  
+>> count down: 8  
+>> count down: 7  
+>> count down: 6  
+>> etc.  
 ```java
 int max = 10;
 
@@ -232,7 +239,9 @@ do {
     max--;
 } while (max < 10);
 ```
-> c.
+> c.  
+> - This will loop infinitely because the remainder of 250 modulus 3 will never be equal to 0.  
+> - The loop will output 250 infintely.  
 ```java
 int x = 250;
 
@@ -240,7 +249,11 @@ do {
     System.out.println(x);
 } while (x % 3 != 0);
 ```
-> d.
+> d.  
+> - This loop will execute two times, until it reaches 25 % 2, which has a remainder of 1.  
+> - The output of this loop would be:  
+>> 100  
+>> 50  
 ```java
 int x = 100;
 
@@ -249,7 +262,9 @@ do {
     x = x / 2;
 } while (x % 2 == 0);
 ```
-> e.
+> e.  
+> - This loop will execute 3 times(2 + " " = 2, 2 * 2 = 4 | 4 + " " = 4, 4 * 4 = 16 | 16 + " " = 16, 16 * 16 = 256)  
+> - The output of this loop is 2 4 16  
 ```java
 int x = 2;
 
@@ -258,7 +273,9 @@ do {
     x *= x;
 } while (x < 200);
 ```
-> f.
+> f.  
+> - This loop will execute 5 times(b + a + b = bab, b + bab + b = bbabb, b + bbabb + b = bbbabbb, b + bbbabbb + b = bbbbabbbb, b + bbbbabbbb + b = bbbbbabbbbb)  
+> - The output of this loop is bbbbbabbbbb  
 ```java
 String word = "a";
 
@@ -268,6 +285,15 @@ do {
 System.out.println(word);
 ```
 > g.
+> - This loop will execute 7 times.  
+> - The output is:  
+>> 10  
+>> 5  
+>> 2  
+>> 1  
+>> 0  
+>> 0  
+>> 0  
 ```java
 int x = 100;
 
@@ -277,6 +303,8 @@ do {
 } while (x > 0);
 ```
 > h.
+> - This loop would execute 3 times( /\ + /\ = /\/\, /\/\ + /\/\ = /\/\/\/\, /\/\/\/\ + /\/\/\/\ = /\/\/\/\/\/\/\/\)  
+> - The output of this loop would be /\/\/\/\/\/\/\/\  
 ```java
 String str = "/\\";
 
@@ -292,5 +320,19 @@ System.out.println(str);
 > She sells seashells by the seashore.
 > Do you want to hear it again? *y or n(for yes or no)*
 ```java
+public class SeaShells
+{
+    public static void main(String[] args)
+    {
+        Scanner shells = new Scanner(System.in);
+        String answer;
 
+        do {
+            System.out.println("She sells seashells by the seashore.");
+            System.out.println("Answer the following question with \"y\" for Yes or \"n\" for No");
+            System.out.print("Do you want to hear it again? ");
+            answer = shells.nextLine();
+        } while (answer.equalsIgnoreCase("y"));
+    }
+}
 ```
