@@ -303,8 +303,8 @@ do {
 } while (x > 0);
 ```
 > h.
-> - This loop would execute 3 times( /\ + /\ = /\/\, /\/\ + /\/\ = /\/\/\/\, /\/\/\/\ + /\/\/\/\ = /\/\/\/\/\/\/\/\)  
-> - The output of this loop would be /\/\/\/\/\/\/\/\  
+> - This loop would execute 3 times( /\ + /\ = /\ /\ , /\ /\ + /\ /\ = /\ /\ /\ /\, /\ /\ /\ /\ + /\ /\ /\ /\ = /\ /\ /\ /\ /\ /\ /\ /\ )  
+> - The output of this loop would be /\ /\ /\ /\ /\ /\ /\ /\  
 ```java
 String str = "/\\";
 
