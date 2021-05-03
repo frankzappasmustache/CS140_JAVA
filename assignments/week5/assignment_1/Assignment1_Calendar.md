@@ -109,7 +109,7 @@ public static int monthFromDate(String date)
 ```
 > This method should extract an integer value for the month and return it when passed a given
 > date as a String. Using the indexOf and substring methods may be helpful with this.
-\\
+
 ```java
 public static int dayFromDate(String date)
 ```
@@ -119,33 +119,39 @@ public static int dayFromDate(String date)
 # Helpful Information:
 
 > For this assignment, you may want to use a few tools that we have not gone over in class.
-\\
+> \
+> \
 > To get today’s date, you will likely want to make use of a Calendar object that is already
 > implemented by Java. This object stores basic information that we can access. To use this
 > object, you will want to create a new Calendar object (be careful that your class is also
 > not named Calendar or Java will get confused). The code for that would look like **Calendar
 > name = Calendar.getInstance()**. This gets the current date and stores it in this Calendar object.
-\\
+> \
+> \
 > To access the information we want, we need to use the Calendar’s get method. For instance, if we
 > wanted the month we would use name.get(Calendar.MONTH), or if we wanted the day we would use
 > **name.get(Calendar.DATE)**. **Calendar.MONTH** and **Calendar.DATE** are just ways to refer to the
 > locations where those values are stored.
-\\
+> \
+> \
 > You also may make use of severalString methods. The **indexOf** and substring methods could be of
 > use. The **indexOf** method finds the index of the first occurrence of the given character in the
 > String you call the methodon. For example, if we had **“Hello”** store in a variable **x**, calling
 > **x.indexOf(“l”)** would return a value of 2 since the first “l” is located at index 2 in the String
 > “Hello”.
-\\
+> \
+> \
 > The substring method creates a new string from the starting index given to the ending index given
 > (it does not include the character in the ending index). If not ending index is given, then a
 > substring from the beginning index to the end of the String is created. If we wanted a substring
 > of “Hello” that just captured “ell” and if “Hello” was stored in variable x, we could call
 > **x.substring(1, 4)**. If we wanted just “llo”, we could call **x.substring(2)**.
-\\
+> \
+> \
 > Finally, you may find it useful to convert a number as a String into an integer value. Todo this,
 > we can call Integer.parseInt(String), where String is the String valueof the integer we want.
-\\
+> \
+> \
 > I strongly encourage you to tackle this assignmentin parts and practice iterative design. Work on
 > a few things and then test them to make sure they work. Then, add some more and test those. Make
 > sure that you come up with a plan before you start coding. Writing pseudocode can also be very
@@ -161,11 +167,10 @@ public static int dayFromDate(String date)
 # Extra Credit Opportunities (Optional):
 > You can choose to do as many or as few of these as you would like. Each one completed successfully
 > and in good style will earn some extra credit points towards this assignment.
-\\
-> - 1. As stated above in the specification, you canallowyour calendar run to 35 days. For an added challenge, you can limit the number of days to 31. Completing this task successfully and in good style will result in extra credit.
-\\
-> - 2. If your accii art is truly remarkable, Additional extra credit may be awarded. The complexity, uniqueness,and apparent time commitment poured into the art will be taken into consideration. In
-> - CAS123A there are a few examples hanging on the wall.
+
+> 1. As stated above in the specification, you canallowyour calendar run to 35 days. For an added challenge, you can limit the number of days to 31. Completing this task successfully and in good style will result in extra credit.
+> 2. If your accii art is truly remarkable, Additional extra credit may be awarded. The complexity, uniqueness,and apparent time commitment poured into the art will be taken into consideration. In
+> CAS123A there are a few examples hanging on the wall.
 
 # Grading:
 
