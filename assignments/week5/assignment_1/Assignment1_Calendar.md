@@ -84,26 +84,26 @@
 # Implementation Details:
 
 > You must include the following methods:
-\\
+
 ```java
 public static void drawMonth(int month)
 ```
 > This method takes in an integer representing the month and displays the month and a graphical
 > representation of the calendar as seen in the examples above.
-\\
+
 ```java
 public static void drawRow(int row)
 ```
 > This method should be called in your drawMonthmethod. It should display one week on
 > the calendar (one row). This method is passed an integer representing which row it is displaying.
-\\
+
 ```java
 public static void displayDate(int month, int day)
 ```
 > This method is passed the month and the day as integer values and displays the date
 > information as seen in the above example underneath the graphical representation of the
 > calendar
-\\
+
 ```java
 public static int monthFromDate(String date)
 ```
