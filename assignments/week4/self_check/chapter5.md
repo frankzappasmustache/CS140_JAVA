@@ -180,15 +180,19 @@ public static void mystery(int x) {
 }
 ```
 ### For each of the following calls, indicate the output that the preceding method produces:  
-
+>  
 > mystery(1);  
 > - 1 0  
+>  
 > mystery(6);  
 > - 4 2  
+>  
 > mystery(19);  
 > - 16 4  
+>  
 > mystery(39);  
 > - 32 5  
+>  
 > mystery(74);  
 > - 64 6  
 
