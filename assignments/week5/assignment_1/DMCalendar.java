@@ -23,7 +23,7 @@ public class DMCalendar
 
     public static void drawMonth(int month)
     {
-        for(int i = 0; i <= 31; i++) {
+        for(int i = 0; i <= 12; i++) {
             if(month == 02) {
                 for(int j = 0; j <= 29; j++) {
                     System.out.print();
@@ -54,7 +54,7 @@ public class DMCalendar
 
     public static int monthFromDate(String date)
     {
-        
+
     }
 
     public static int dayFromDate(String date)
