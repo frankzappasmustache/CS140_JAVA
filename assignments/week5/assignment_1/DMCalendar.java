@@ -23,12 +23,28 @@ public class DMCalendar
 
     public static void drawMonth(int month)
     {
-
+        for(int i = 0; i <= 31; i++) {
+            if(month == 02) {
+                for(int j = 0; j <= 29; j++) {
+                    System.out.print();
+                }
+            } else if(month == 04 || month == 06 || month == 09 || month == 11) {
+                for(int j = 0; j <= 30; j++) {
+                    System.out.print();
+                }
+            } else {
+                for(int j = 0; j <=31; j++){
+                    System.out.print();
+                }
+            }
+        }
     }
 
     public static void drawRow(int row)
     {
-
+        for(int a = 0; a <= 5; a++) {
+            System.out.print();
+        }
     }
 
     public static void displayDate(int month, int day)
@@ -38,7 +54,7 @@ public class DMCalendar
 
     public static int monthFromDate(String date)
     {
-
+        
     }
 
     public static int dayFromDate(String date)

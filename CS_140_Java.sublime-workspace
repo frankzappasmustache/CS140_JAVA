@@ -201,11 +201,16 @@
 	[
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week3",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week4"
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week4/self_check/chapter5.md",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/Assignment1_Calendar.md",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/DMCalendar.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week3/lab_2/DMPayroll.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week3/self_check/chapter4.md",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/RunJava.sublime-build",
 		"/home/frankzappasmustache/Documents/jGRASP.desktop.bak",
 		"/home/frankzappasmustache/Desktop/jGRASP.desktop",
@@ -328,12 +333,7 @@
 		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_6b_recursiveExponentiation/recursiveExponentiation.md",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.hpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.19/findtheTwoLargestNumbrs.hpp",
-		"/home/frankzappasmustache/Documents/gnupg_keygen_dustin_t_mcclure_gmail.txt",
-		"/home/frankzappasmustache/Documents/ssh_keygen_github.txt",
-		"/home/frankzappasmustache/Documents/fedora_33_upgrade_broken_packages.txt",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5a_smallestValue/smallestValue.md"
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 03 & 04 Exercises/Ex 4.17/findtheLargest.hpp"
 	],
 	"find":
 	{
@@ -372,6 +372,11 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
@@ -391,11 +396,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.50461019034,
 			1.0
 		],
 		"rows":
@@ -490,7 +502,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 290.0,
 	"status_bar_visible": true,
 	"template_settings":
