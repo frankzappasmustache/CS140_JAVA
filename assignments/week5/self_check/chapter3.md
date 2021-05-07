@@ -26,7 +26,14 @@ public class Oops3 {
         System.out.println("The value from main is: " + bubble);
     }
 }
-```
+```  
+> - Variable *double y* must have an assigned type **(mistake 1)** and be declared **(mistake 2)** before the method call to printer in line 5.
+> - The method printer, as defined below method main, requires two params but only one is present in line 6 **(mistake 3)**  
+> - In line 7 there are two strings passed to the printer method, which requires 2 doubles **(mistake 4)**  
+> - System.out.println tries to reference z in line 8 of method main, but there is no local variable declared and/or initialized in the scope of main, and the println method does not have access to int z declared in the printer method **(mistake 5)**  
+> - In the parameters for the printer method, x has no type assocaited with it **(mistake 6)**, and y double needs to be switched around so the variable can initialize properly with a name **(mistake 7)**  
+> - In line 12 double x and y would not be recognized by the println method call because they were not declared properly **(mistake 8)**  
+> - The variable bubble cannot be referenced in the scope of the printer method because it is a variable local to method main **(mistake 9)**  
 ## Self-Check 4
 ---
 ### What output is produced by the following program?  
@@ -49,7 +56,10 @@ public class Odds {
     }
 }
 ```  
-> 
+### **Output**  
+> 1 3 5  
+> 1 3 5 7 9 11 13 15  
+> 1 3 5 7 9 11 13 15 17 19 21 23 25  
 ## Self-Check 5
 ---
 ### What is the output of the following program?  
@@ -72,7 +82,11 @@ public class Weird {
     }
 }
 ```  
-> 
+### **Output**  
+> 1 2 3 4 5  
+> 1 2 3 4 5 6 7  
+> 1 2 3 4  
+> number = 8  
 ## Self-Check 7
 ---
 ### What is the output of the following program?  
@@ -97,7 +111,12 @@ public class MysteryWho {
     }
 }
 ```  
-> 
+### **Output**  
+> whom and who like it  
+> it and him like whom  
+> whom and him like him  
+> stu and boo like who  
+> her and him like who  
 ## Self-Check 10
 ---
 ### Write a method called **printStrings** that accepts a String and a number of repetitions as parameters and prints the String the given number of times with a space after each time. For example, the call:
