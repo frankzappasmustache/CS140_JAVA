@@ -13,7 +13,7 @@ public class CafeWall
 {
     public static void main(String[] args) 
     {
-        DrawingPanel panel = new DrawingPanel (650, 400);
+        DrawingPanel dPanel = new DrawingPanel (650, 400);
         panel.setBackground(Color.GRAY);
     }
 
