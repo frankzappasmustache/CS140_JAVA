@@ -127,7 +127,20 @@ printStrings("abc", 5);
 > abc abc abc abc abc  
 ### My Method:
 ```java
+public class ChapterThreeTest {
+    public static void main(String[] args) {
+        String a = "Apple";
+        int b = 20;
 
+        printStrings(a, b);
+    }
+
+    public static void printStrings(String c, int d) {
+        for(int i = 0; i <= d; i++) {
+            System.out.print(c + "\n");
+        }
+    }
+}
 ```
 ## Self-Check 20
 ---
@@ -135,62 +148,62 @@ printStrings("abc", 5);
 ```java
 String str1 = "Q.E.D.";
 String str2 = "Arcturan Megadonkey";
-String str3 = "Sirius Cybernetics Coroporation";
+String str3 = "Sirius Cybernetics Corporation";
 ```
 ### evaluate the following expressions:  
-a.  
+a. 6  
 ```java
 str1.length();
 ```  
-b.  
+b. 19  
 ```java
 str2.length();
 ```  
-c.  
+c. q.e.d.  
 ```java
 str1.toLowerCase();
 ```  
-d.  
+d. ARCTURAN MEGADONKEY  
 ```java
 str2.toUpperCase();
 ```  
-e.  
+e. E.
 ```java
 str1.substring(2, 4);
 ```  
-f.  
+f. egad  
 ```java
 str2.substring(10, 14);
 ```  
-g.  
+g. 4  
 ```java
 str1.indexOf("D");
 ```  
-h.  
+h. 1  
 ```java
 str1.indexOf(".");
 ```  
-i.  
+i. 13  
 ```java
 str2.indexOf("donkey");
 ```  
-j.  
+j. -1 (string.indexOf reports -1, an invalid index, when the index is not found)
 ```java
 str3.indexOf("X");
 ```  
-k.  
+k. Arcturan Megadonkeys  
 ```java
 str2 + str3.charAt(17);
 ```  
-l.  
+l. b  
 ```java
 str3.substring(9, str3.indexOf("e"));
 ```  
-m.  
+m. Cyber  
 ```java
 str3.substring(7, 12);
 ```  
-n.  
+n. mega Corp  
 ```java
 str2.toLowerCase().substring(9, 13) + str3.substring(18, str3.length() - 7);
 ```  
@@ -200,7 +213,23 @@ str2.toLowerCase().substring(9, 13) + str3.substring(18, str3.length() - 7);
 ### Write Java code to read an integer from the user, then print that number multiplied by 2. You may assume that the user types a valid integer.  
 
 ```java
+import java.util.Scanner;
 
+public class IntegerReader {
+    public static void main(String[] args) {
+        int b = 0;
+        readInt(b);
+    }
+
+    public static void readInt(int s) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Please enter an integer number: ");
+        s = input.nextInt();
+        System.out.println();
+        System.out.println("Your number multiplied by two is: " + s * 2);
+    }
+}
 ```  
 
 ## Self-Check 24  
@@ -227,5 +256,26 @@ public class SumNumbers {
 
 ### Here is my modified program:  
 ```java
+import java.util.Scanner;
 
+public class SumNumbers {
+    public static void main(String[] args) {
+        int low = 0;
+        int high = 0;
+        int sum = 0;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Please enter your low value: ");
+        low = input.nextInt();
+
+        System.out.println("Please enter your high value: ");
+        high = input.nextInt();
+        
+        for(int i = low; i <= high; i++) {
+            sum += i;
+        }
+        System.out.println("sum = " + sum);
+    }
+}
 ```
