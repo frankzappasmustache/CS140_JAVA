@@ -21,7 +21,7 @@ public class DMDoodle
         int x[] = new int[3]; // declare an array of integers and initialize it
         int y[] = new int[3]; // declare an array of integers and initialize it
 
-        // set array indexes to appropriate x and y coordinates for triangle
+        // set array indicies to appropriate x and y coordinates for triangle
         x[0] = 100;
         y[0] = 100;
         x[1] = 300;
