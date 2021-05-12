@@ -211,12 +211,21 @@
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3"
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/code-files"
 	],
 	"file_history":
 	[
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3/DMDoodle.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/QuadraticEquations.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/CircleArea.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/ScientificExponent.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/VolumeSphere.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/VerticalString.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/FirstNameLast.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/SquarePrinter.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/TriAngles.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week3/lab_2/DMPayroll.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3/CafeWall.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3/DMDoodle.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3/DrawingPanel.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/code-files/ch12/Board.java",
 		"/tmp/mozilla_frankzappasmustache0/DrawingPanel-1.java",
@@ -228,7 +237,6 @@
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/self_check/chapter3.md",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week4/self_check/chapter5.md",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/Assignment1_Calendar.md",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week3/lab_2/DMPayroll.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week3/self_check/chapter4.md",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/RunJava.sublime-build",
 		"/home/frankzappasmustache/Documents/jGRASP.desktop.bak",
@@ -334,15 +342,7 @@
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.11/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.16/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.23/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.22/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.21/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.20/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.18/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.19/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.29/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_5b_PeterMinuitProblem/peterMinuit.h",
-		"/home/frankzappasmustache/code/courses/tests_examples/My-scripts/Kieran Python IT121 Lab MIDTERM EXAM Study Calculator.py",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/CS131.sublime-project"
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.22/src/main.cpp"
 	],
 	"find":
 	{
@@ -426,7 +426,7 @@
 		"cols":
 		[
 			0.0,
-			0.558350754249,
+			0.416578879502,
 			1.0
 		],
 		"rows":
@@ -514,7 +514,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
