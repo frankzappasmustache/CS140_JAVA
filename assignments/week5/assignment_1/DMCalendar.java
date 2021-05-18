@@ -30,72 +30,86 @@ public class DMCalendar
     public static void drawMonth(int month)
     {
         if(month == 2) {
-                for(int k = 1; k <= 7; k++) {
-                    drawRow(k, 7);
+                for(int k = 1; k <= 1; k++) {
+                    drawRow(1, 7);
                 }
-                    for(int l = 8; l <= 14; l++) {
-                        drawRow(l, 14);
+                    for(int l = 1; l <= 1; l++) {
+                        drawRow(8, 14);
                     }
-                        for(int m = 15; m <= 21; m++) {
-                            drawRow(m, 21);
+                        for(int m = 1; m <= 1; m++) {
+                            drawRow(15, 21);
                         }
-                            for(int n = 22; n <= 28; n++) {
-                                drawRow(n, 28);
+                            for(int n = 1; n <= 1; n++) {
+                                drawRow(22, 28);
                             }
-                                for(int o = 29; o <= 29; o++) {
-                                    drawRow(o, 29);
+                                for(int o = 1; o <= 1; o++) {
+                                    System.out.print("================================================");
+                                    drawRow(29, 29);
+                                    System.out.println("========");
                                 }
             } else if(month == 4 || month == 6 || month == 9 || month == 11) {
-                for(int k = 1; k <= 7; k++) {
-                    drawRow(k, 7);
+                for(int k = 1; k <= 1; k++) {
+                    drawRow(1, 7);
                 }
-                    for(int l = 8; l <= 14; l++) {
-                        drawRow(l, 14);
+                    for(int l = 1; l <= 1; l++) {
+                        drawRow(8, 14);
                     }
-                        for(int m = 15; m <= 21; m++) {
-                            drawRow(m, 21);
+                        for(int m = 1; m <= 1; m++) {
+                            drawRow(15, 21);
                         }
-                            for(int n = 22; n <= 28; n++) {
-                                drawRow(n, 28);
+                            for(int n = 1; n <= 1; n++) {
+                                drawRow(22, 28);
                             }
-                                for(int o = 29; o <= 30; o++) {
-                                    drawRow(o, 30);
+                                for(int o = 1; o <= 1; o++) {
+                                    System.out.print("========================================");
+                                    drawRow(29, 30);
+                                    System.out.println("================");
                                 }
             } else {
-                for(int k = 1; k <= 7; k++) {
-                    drawRow(k, 7);
+                for(int k = 1; k <= 1; k++) {
+                    drawRow(1, 7);
                 }
-                    for(int l = 8; l <= 14; l++) {
-                        drawRow(l, 14);
+                    for(int l = 1; l <= 1; l++) {
+                        drawRow(8, 14);
                     }
-                        for(int m = 15; m <= 21; m++) {
-                            drawRow(m, 21);
+                        for(int m = 1; m <= 1; m++) {
+                            drawRow(15, 21);
                         }
-                            for(int n = 22; n <= 28; n++) {
-                                drawRow(n, 28);
+                            for(int n = 1; n <= 1; n++) {
+                                drawRow(22, 28);
                             }
-                                for(int o = 29; o <= 31; o++) {
-                                    drawRow(o, 31);
+                                for(int o = 1; o <= 1; o++) {
+                                    System.out.print("================================");
+                                    drawRow(29, 31);
+                                    System.out.println("========================");
                                 }
             }
     }
 
     public static void drawRow(int start, int end)
     {
-        for(int a = 0; a <= 1; a++) {
+        for(int a = 1; a <= 1; a++) {
             for(int c = start; c <= end; c++) {
-                System.out.print("=======");
-            }
-            System.out.println();
-
-            for(int d = start; d <= end; d++) {
-                System.out.print("|" + d + "    |");
+                System.out.print("========");
             }
             System.out.println();
             
+            for(int d = start; d <= end; d++) {
+                if(d <= 9) {
+                System.out.print("|" + d + "      ");
+                } else {
+                System.out.print("|" + d + "     ");
+                }
+            }
+            System.out.println("|");
+            
             for(int b = start; b <= end; b++) {
-                System.out.print("|     |");
-                System.out.print("|     |");
+                System.out.print("|       ");
+            }
+            System.out.println("|");
+            
+            for(int e = start; e <= end; e++) {
+                System.out.print("|       ");
             }
             System.out.println("|");
     }

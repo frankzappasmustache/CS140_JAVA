@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"row",
+				"row"
+			],
+			[
 				"int",
 				"int"
 			],
@@ -15,6 +19,31 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assignments/week5/assignment_1/DMCalendar.java",
+			"settings":
+			{
+				"buffer_size": 3994,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assignments/week5/lab_3/DMDoodle.java",
+			"settings":
+			{
+				"buffer_size": 2185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assignments/week5/assignment_1/DMCalendar2.java",
+			"settings":
+			{
+				"buffer_size": 2311,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -210,11 +239,13 @@
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/code-files"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/DMCalendar2.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/QuadraticEquations.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/CircleArea.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/ScientificExponent.java",
@@ -341,8 +372,7 @@
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.12/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.11/src/main.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.16/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.23/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.22/src/main.cpp"
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.23/src/main.cpp"
 	],
 	"find":
 	{
@@ -388,13 +418,135 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assignments/week5/assignment_1/DMCalendar.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3994,
+						"regions":
+						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								2124,
+								2124
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 816.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assignments/week5/lab_3/DMDoodle.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2185,
+						"regions":
+						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"file": "assignments/week5/assignment_1/DMCalendar2.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2311,
+						"regions":
+						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								1094,
+								1094
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -426,7 +578,7 @@
 		"cols":
 		[
 			0.0,
-			0.416578879502,
+			0.5,
 			1.0
 		],
 		"rows":
