@@ -9,8 +9,8 @@
 */
 import java.io.*;
 import java.lang.*;
-import java.util.Scanner;
-import java.util.Calendar;
+import java.util.*;
+import java.text.*;
 
 // Begin DMCalendar class
 public class DMCalendar
@@ -25,6 +25,20 @@ public class DMCalendar
         System.out.println(month);
         drawMonth(month);
         displayDate(month, day);
+        System.out.println();
+        drawCurrentMonth();
+    }
+
+    public static void drawCurrentMonth()
+    {
+        Calendar cal = Calendar.getInstance();
+        int currentMonth = Integer.parseInt(new SimpleDateFormat("MM").format(cal.getTime()));
+        int currentDay = Integer.parseInt(new SimpleDateFormat("dd").format(cal.getTime()));
+        
+        System.out.println("This Month: " + currentMonth);
+        drawMonth(currentMonth);
+        System.out.println("Month: " + currentMonth);
+        System.out.println("Day: " + currentDay);
     }
 
     public static void drawMonth(int month)
