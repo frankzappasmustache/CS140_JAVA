@@ -15,8 +15,26 @@ public class DMGuessingGame
     public static void main(String[] args)
     {
         instructions();
-        playGame();
-
+        String onceMore;
+        do {
+            int lowestGuess = 9999;
+            int sum = 0;
+            int guessCount = playGame();
+            int gameCount = 1;
+            onceMore = playAgain();
+            if(onceMore.equalsIgnoreCase("y")) {
+                gameCount++;
+                sum += guessCount;
+                
+                continue;
+            } else {
+                results(sum, gameCount);
+                int best = bestGame(sum, lowestGuess);
+                System.out.println("Your best game was " + best + " guesses.");
+                
+                break;
+            }
+        } while(onceMore.equalsIgnoreCase("y"));
     }
 
     public static void instructions()
@@ -26,13 +44,14 @@ public class DMGuessingGame
         System.out.println("will allow you to guess until you get it.");
         System.out.println("For each guess, I will tell you whether the right answer");
         System.out.println("is higher or lower than your guess.");
+        System.out.println();
     }
 
     public static int playGame()
     {
         final int MAX_NUMBER = 100;
         Random randNum = new Random();
-        int correctAnswer = rand.nextInt(100) + 1;
+        int correctAnswer = randNum.nextInt(100) + 1;
         int guesses = 0;
         int guess;
         Scanner input = new Scanner(System.in);
@@ -56,26 +75,29 @@ public class DMGuessingGame
         return guesses;
     }
 
-    public static int playAgain()
+    public static String playAgain()
     {
         Scanner input = new Scanner(System.in);
+        System.out.println("Would you like to play this game?");
         String play = input.next();
-        int games = 1;
-        System.out.println("Would you like to play again?");
-        play;
-        if(play.equals("y")) {
-            playGame();
-        } else {
-            System.out.println("Please come again soon!");
-        }
         return play;
+    }
+
+    public static int bestGame(int guessCount, int lowestGuess)
+    {
+        if(guessCount < lowestGuess) {
+            return guessCount;
+        } else {
+            return lowestGuess;
+        }
     }
 
     public static void results(int guesses, int gameCount)
     {
-        int games = gameCount;
-        int guesses = guesses;
         int guessAverage = guesses / gameCount;
-        int bestGame = 
+        
+        System.out.println("Total Games: " + gameCount);
+        System.out.println("Total Guesses: " + guesses);
+        System.out.println("Average Guesses: " + guessAverage);
     }
 }
