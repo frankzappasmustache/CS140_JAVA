@@ -6,7 +6,7 @@
 ```java
 Scanner input = new Scanner("test.dat");
 ```
-> Assuming the file was not previously created in a previous part of the code,  
+> Assuming the file was not created in a previous part of the code,  
 > the line should read as follows:  
 ```java
 Scanner input = new Scanner(new File("test.dat"));
