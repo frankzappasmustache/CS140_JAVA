@@ -14,7 +14,7 @@ Scanner input = new Scanner(new File("test.dat"));
 
 ## Self-Check 3  
 ---
-### Which of the following is the correct syntax to declare a Scannerto read the  
+### Which of the following is the correct syntax to declare a Scanner to read the  
 ### file *example.txt* in the current directory?  
 ```java
 Scanner input = new Scanner(new File("example.txt"));
