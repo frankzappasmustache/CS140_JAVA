@@ -5,7 +5,7 @@
     File Name: DMGuessingGame.java
     Author: Dustin McClure
     Lab: Guessing Game
-    Modified Date: 05/21/2021
+    Modified Date: 05/23/2021
 
     A program that generates a random number, asks the user to guess what that number is
     between 1 and 100, tells them whether their guess is higher or lower than the correct
