@@ -19,23 +19,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assignments/week5/assignment_1/DMCalendar.java",
-			"settings":
-			{
-				"buffer_size": 5300,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Public class Game {\n    public static final int MAX = 100;\n   \n    public static void main(String[] args) {\n      intro();\n      Scanner input = new Scanner(System.in);\n      String newGame = input.nextLine();\n         if (newGame.equals(\"yes\" ,\"Y\" ,\"y\")) {\n           Random x = new Random();\n         int ngue = 0;\n         int gue;\n         int ans = x.nextInt(MAX);\n            do {\n               ngue++;\n               System.out.print(\"Your number?\");\n               gue = player.nextInt();\n               if (gue < ans){\n                  System.out.println(\"You guessed too low!\");\n               }\n               else if (gue > ans){\n                  System.out.println(\"You guessed too high!\");\n               }   \n            } while (gue != ans);   \n         }\n         else {\n            System.out.println(\"Thank you for playing!\");\n            }\n            \n      System.out.println(\"Congratulations! Here are your game stats!\");\n      System.out.println(\"Number of Guesses =\" + ngue);\n      System.out.println(\"Correct Guessing Number=\" + ans);\n      System.out.println(\"Would you like to play again?\");\n      }",
-			"settings":
-			{
-				"buffer_size": 1130,
-				"line_ending": "Unix",
-				"name": "Public class Game {"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -228,21 +211,34 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/code-files"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/WordWrapDos.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/LeetSpeak.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/leetSpeak.txt",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/regularSpeak.txt",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/CoinFlip.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/flips.txt",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/StripHTMLTags.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/frankzappasmustache_github_io.html",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/WordWrap.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/NegativeSum.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/outputWords.txt",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/words.txt",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/CollapseSpaces.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/negatives_2.txt",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/negatives_1.txt",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/CircleArea.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/self_check/chapter3.md",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/self_check/chapter6.md",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/DMCalendar.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/assignment_2/DMCalendarP2.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/lab_4/DMGuessingGame.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3/CafeWall.java",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/DMCalendar.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/DMCalendar2.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3/DMDoodle.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/QuadraticEquations.java",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/CircleArea.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/ScientificExponent.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/VolumeSphere.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/VerticalString.java",
@@ -257,7 +253,6 @@
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week2/exercises/DisplacementEquation.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week2/lab_1/DMBusinessReport.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3/DMDrawingPanel.java",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/self_check/chapter3.md",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week4/self_check/chapter5.md",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/Assignment1_Calendar.md",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week3/self_check/chapter4.md",
@@ -346,27 +341,11 @@
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++NamespaceTool/C++NamespaceTool.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/CppBuilder/CppBuilder.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++.sublime-build",
-		"/tmp/kite_tutorial.py",
-		"/home/frankzappasmustache/code/courses/tests_examples/Dustins_tests/parkingCharges_11_11.h",
-		"/home/frankzappasmustache/code/courses/tests_examples/Dustins_tests/parkingCharges_11_11.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4b_retailCalculator/retailCalculator.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_2_arithmetic/arithmetic.cpp",
-		"/home/frankzappasmustache/code/courses/test.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_4a_gasMileage/gasMileageCalc.h",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.h",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.06/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.08/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.09/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.10/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.14/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.13/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.12/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_05/exercises/5.11/src/main.cpp"
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++.sublime-build"
 	],
 	"find":
 	{
-		"height": 65.0
+		"height": 52.0
 	},
 	"find_in_files":
 	{
@@ -413,81 +392,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assignments/week5/assignment_1/DMCalendar.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5300,
-						"regions":
-						{
-							"better_bookmarks":
-							{
-								"flags": 144,
-								"icon": "Packages/Theme - Default/common/bookmark.png",
-								"regions":
-								[
-								],
-								"scope": "string"
-							}
-						},
-						"selection":
-						[
-							[
-								4656,
-								4656
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Java/Java.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 153.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1130,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								247,
-								247
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Public class Game {",
-							"default_dir": "/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3",
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/Java/Java.sublime-syntax",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -519,7 +425,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.513863041716,
 			1.0
 		],
 		"rows":
@@ -607,7 +513,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
