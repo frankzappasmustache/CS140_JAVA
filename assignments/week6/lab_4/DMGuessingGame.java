@@ -97,15 +97,17 @@ public class DMGuessingGame
     // Begin method playAgain
     public static String playAgain()
     {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Would you like to play this game?");
-        String play = input.next();
-        return play;
+        Scanner input = new Scanner(System.in); // create new scanner to capture user input
+        System.out.println("Would you like to play this game?"); // prompt user for input
+        String play = input.next(); // capture input
+        return play; // return input
     } // end method playAgain
 
     // begin method bestgame
     public static int bestGame(int guessCount, int lowestGuess)
     {
+        // if else loop that takes guesses and current lowest guess, compares them,
+        // and returns the lowest of the two
         if(guessCount < lowestGuess) {
             return guessCount;
         } else {
@@ -116,10 +118,10 @@ public class DMGuessingGame
     // begin method results
     public static void results(int guesses, int gameCount)
     {
-        int guessAverage = guesses / gameCount;
+        int guessAverage = guesses / gameCount; // declare int for guess average
         
-        System.out.println("Total Games: " + gameCount);
-        System.out.println("Total Guesses: " + guesses);
-        System.out.println("Average Guesses: " + guessAverage);
+        System.out.println("Total Games: " + gameCount); // print out total games
+        System.out.println("Total Guesses: " + guesses); // print out total guesses
+        System.out.println("Average Guesses: " + guessAverage); // print out average guesses per game
     } // end method results
-}
+} // end class DMGuessingGame

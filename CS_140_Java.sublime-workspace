@@ -19,6 +19,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assignments/week6/lab_4/DMGuessingGame.java",
+			"settings":
+			{
+				"buffer_size": 5307,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -211,6 +220,10 @@
 	},
 	"expanded_folders":
 	[
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/lab_4"
 	],
 	"file_history":
 	[
@@ -387,8 +400,49 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assignments/week6/lab_4/DMGuessingGame.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5307,
+						"regions":
+						{
+							"better_bookmarks":
+							{
+								"flags": 144,
+								"icon": "Packages/Theme - Default/common/bookmark.png",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 33.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -513,7 +567,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
