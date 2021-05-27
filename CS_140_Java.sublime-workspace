@@ -19,15 +19,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assignments/week6/lab_4/DMGuessingGame.java",
-			"settings":
-			{
-				"buffer_size": 5307,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -227,6 +218,7 @@
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/lab_4/DMGuessingGame.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/WordWrapDos.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/LeetSpeak.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/leetSpeak.txt",
@@ -247,7 +239,6 @@
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/self_check/chapter6.md",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/DMCalendar.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/assignment_2/DMCalendarP2.java",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/lab_4/DMGuessingGame.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3/CafeWall.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/DMCalendar2.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3/DMDoodle.java",
@@ -400,49 +391,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assignments/week6/lab_4/DMGuessingGame.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5307,
-						"regions":
-						{
-							"better_bookmarks":
-							{
-								"flags": 144,
-								"icon": "Packages/Theme - Default/common/bookmark.png",
-								"regions":
-								[
-								],
-								"scope": "string"
-							}
-						},
-						"selection":
-						[
-							[
-								200,
-								200
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Java/Java.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 33.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
