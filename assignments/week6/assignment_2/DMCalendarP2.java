@@ -1,10 +1,10 @@
 /*
     Copyright 2021 <Dustin McClure>
     Project Name: CS140_Java
-    Sub-project: Assignment 1
+    Sub-project: Assignment 2
     File Name: DMCalendarP2.java
     Author: Dustin McClure
-    Assignment: Calendar
+    Assignment: Calendar - Part 2
     Modified Date: 05/26/2021
 
     Java program that prints out an ASCII Calendar to the console
