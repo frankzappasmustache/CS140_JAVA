@@ -213,11 +213,16 @@
 	[
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/lab_4"
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/assignment_2"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/assignment_2/DMCalendarP2.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/DMCalendar.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/Assignments/Assignment_2_Calendar_Part_2/CalendarSample.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/lab_4/DMGuessingGame.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/WordWrapDos.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/LeetSpeak.java",
@@ -237,8 +242,6 @@
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/exercises/CircleArea.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/self_check/chapter3.md",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/self_check/chapter6.md",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/DMCalendar.java",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/assignment_2/DMCalendarP2.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3/CafeWall.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/DMCalendar2.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/lab_3/DMDoodle.java",
@@ -344,8 +347,7 @@
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Clang Format/clang_format.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
 		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++NamespaceTool/C++NamespaceTool.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/CppBuilder/CppBuilder.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++.sublime-build"
+		"/home/frankzappasmustache/.config/sublime-text-3/Packages/CppBuilder/CppBuilder.sublime-settings"
 	],
 	"find":
 	{
@@ -429,7 +431,7 @@
 		"cols":
 		[
 			0.0,
-			0.513863041716,
+			0.5,
 			1.0
 		],
 		"rows":
