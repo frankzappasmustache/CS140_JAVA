@@ -211,19 +211,21 @@
 	},
 	"expanded_folders":
 	[
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/assignment_2"
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA"
 	],
 	"file_history":
 	[
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week7/lab_5/DMMadLibs.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week7/lab_5/clothesout.txt",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week7/lab_5/simpleout.txt",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week7/lab_5/simple.txt",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/lab_4/DMGuessingGame.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/assignment_2/DMCalendarP2.java",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week7/lab_5/clothes.txt",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week7/lab_5/simpleout",
+		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week7/lab_5/MadLibs.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week5/assignment_1/DMCalendar.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/Assignments/Assignment_2_Calendar_Part_2/CalendarSample.java",
-		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/lab_4/DMGuessingGame.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/WordWrapDos.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/LeetSpeak.java",
 		"/home/frankzappasmustache/OneDrive/Documents/CS_140_Java/code/CS140_JAVA/assignments/week6/exercises/leetSpeak.txt",
@@ -340,14 +342,7 @@
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.12/main.cpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.12/ParkingCharges.hpp",
 		"/home/frankzappasmustache/code/courses/tests_examples/Deitel_Cplusplus_Practice/Chapter 06 Exercises/Ex 6.12/ParkingCharges.cpp",
-		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.12/src/main.cpp",
-		"/home/frankzappasmustache/code/courses/CS131_CPP/assignments/Lab_3b_invoice/Invoice.cpp",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/C++14.sublime-build",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++11/C++11.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/Clang Format/clang_format.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/C++NamespaceTool/C++NamespaceTool.sublime-settings",
-		"/home/frankzappasmustache/.config/sublime-text-3/Packages/CppBuilder/CppBuilder.sublime-settings"
+		"/home/frankzappasmustache/code/courses/tests_examples/Deitel/Chapter_06/exercises/6.12/src/main.cpp"
 	],
 	"find":
 	{
@@ -431,7 +426,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.44445930337,
 			1.0
 		],
 		"rows":
