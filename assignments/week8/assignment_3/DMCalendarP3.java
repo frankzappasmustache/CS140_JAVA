@@ -74,6 +74,12 @@ public class DMCalendarP3
                     }
                     input = printInstructions(instruct); // transfer execution back to printInstructions
                     continue;
+                case "EV":
+                    input = printInstructions(instruct); // transfer execution back to printInstructions
+                    continue;
+                case "FP":
+                    input = printInstructions(instruct); // transfer execution back to printInstructions
+                    continue;
                 default:
                     String date = userInput(); // get date as string from userInput
                     month = monthFromDate(date); // pass date to monthFromDate and return it as int
@@ -92,11 +98,13 @@ public class DMCalendarP3
     {
         // print out instructions, prompting user for input
         System.out.println("Please Type a command:");
-        System.out.println("\t\"e\" to enter a date and display the corresponding calendar");
-        System.out.println("\t\"t\" to get todays date and display today's calendar");
-        System.out.println("\t\"n\" to display the next month");
-        System.out.println("\t\"p\" to display the previous month");
-        System.out.println("\t\"q\" to quit the program");
+        System.out.println("\t\"EV\" to add an event to the calendar");
+        System.out.println("\t\"FP\" to print a calendar for the month of your choosing");
+        System.out.println("\t\"E\" to enter a date and display the corresponding calendar");
+        System.out.println("\t\"T\" to get todays date and display today's calendar");
+        System.out.println("\t\"N\" to display the next month");
+        System.out.println("\t\"P\" to display the previous month");
+        System.out.println("\t\"Q\" to quit the program");
         String com = console.nextLine(); // capture input as string with scanner
         return com; // return captured input
 
@@ -227,4 +235,34 @@ public class DMCalendarP3
         int day = Integer.parseInt(date.substring(3,5)); // convert day portion from userInput to integer and store as int month
         return day; // return day as an int
     } // end method dayFromDate
+
+    public static int daysInMonth(int month)
+    {
+        if(month == 2) {
+            return 29
+        } else if (month == 4 || month == 6 || month == 9 || month == 11) {
+            return 30;
+        } else {
+            return 31;
+        }
+    }
+
+    public static void storeEvent(Scanner console) throws FileNotFoundException
+    {
+        static final String[][] EVENT_ARRAY = new String[][];
+        for(int i = 0; i < 12; i++) {
+            EVENT_ARRAY[i] = new String[daysInMonth(i)];
+        }
+
+        System.out.println("Please enter an event (FORMAT: MM/DD event_title)");
+        String eventText = console.nextLine();
+        PrintStream console2 = new PrintStream(new File(fName));
+        while(input.hasNext()) {
+            int day = dayFromDate(eventText);
+            int month = monthFromDate(eventText);
+            String event = eventText.substring(5);
+            String eventNew = eventArray[month - 1][day -1] + event;
+
+        }
+    }
 } // end class DMCalendarP2
