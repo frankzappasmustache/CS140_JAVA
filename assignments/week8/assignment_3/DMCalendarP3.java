@@ -19,7 +19,7 @@ import java.text.*;
 public class DMCalendarP3
 {
     // Method main begins execution
-    public static void main(String[] args)
+    public static void main(String[] args) throws FileNotFoundException
     {
         int month = 0; // declare int for month and initialize to 0
         int day = 0; // declare int for day and initialize to 0
@@ -78,6 +78,21 @@ public class DMCalendarP3
                     input = printInstructions(instruct); // transfer execution back to printInstructions
                     continue;
                 case "FP":
+                    String date2 = userInput(); // get date as string from userInput
+                    Scanner con2 = new Scanner(System.in);
+                    month = monthFromDate(date2); // pass date to monthFromDate and return it as int
+                    day = dayFromDate(date2); // pass date to dateFrom date and return it as int
+                    System.out.println("Please Enter the name of the file you would like your calendar");
+                    System.out.println("printed to: "); // prompt for file
+                    String fName = con2.next(); // capture file name string
+                    File calFile = new File(fName); // create new file from string                 
+                    PrintStream stream = new PrintStream(calFile); // set printstream to new file
+                    PrintStream orig = System.out; // set printstream var to switch back to system.out
+                    System.setOut(stream); // set printstream to file
+                    System.out.println(month); // print month at top of calendar
+                    drawMonth(month); // print calendar
+                    displayDate(month, day); // print month and day at bottom of calendar
+                    System.setOut(orig); // set output back to console so instructions print to console
                     input = printInstructions(instruct); // transfer execution back to printInstructions
                     continue;
                 default:
@@ -239,7 +254,7 @@ public class DMCalendarP3
     public static int daysInMonth(int month)
     {
         if(month == 2) {
-            return 29
+            return 29;
         } else if (month == 4 || month == 6 || month == 9 || month == 11) {
             return 30;
         } else {
@@ -249,19 +264,19 @@ public class DMCalendarP3
 
     public static void storeEvent(Scanner console) throws FileNotFoundException
     {
-        static final String[][] EVENT_ARRAY = new String[][];
+        final String[][] EVENT_ARRAY = new String[12][31];
         for(int i = 0; i < 12; i++) {
             EVENT_ARRAY[i] = new String[daysInMonth(i)];
         }
 
         System.out.println("Please enter an event (FORMAT: MM/DD event_title)");
         String eventText = console.nextLine();
-        PrintStream console2 = new PrintStream(new File(fName));
-        while(input.hasNext()) {
+        PrintStream console2 = new PrintStream(new File("calendarEvents.txt"));
+        while(console.hasNext()) {
             int day = dayFromDate(eventText);
             int month = monthFromDate(eventText);
             String event = eventText.substring(5);
-            String eventNew = eventArray[month - 1][day -1] + event;
+            String eventNew = EVENT_ARRAY[month - 1][day -1] + event;
 
         }
     }
